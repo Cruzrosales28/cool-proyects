@@ -1,0 +1,17 @@
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+}
+
+.center2 {
+    font-size: 28px;
+    max-width: 75rem;
+    justify-items: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+
+<body>
+
+    <h1>SIMULADOR DE VENTAS</h1>
+
+    <main class="container center2">
+        <br>Aborde: Usa Tu Speech
+        <input type="text" size="30px 50px" name="speech" id="speech" max="80">
+        <button onclick="printSpeech(speech)" href="#">Pruebe Su Creatividad</button>
+
+        <br>Cual Es Tu Causa ?
+        <select id="causes" name="causes">
+        <option value="School">School</option>
+        <option value="Project">Project</option>
+        <option value="Society">Society</option>
+        <option value="Animals">Animals</option>
+      </select>
+        <button onclick="ForWhy(causes)">Look Your Talent</button>
+
+        <br>Respuesta...
+        <button onclick="printAnswer(customerAnswer)">Mira Su Respuesta</button>
+        <h1 class="answer" id="answer"></h1>
+
+        <br>Continuar.?
+        <input type="checkbox" name="next" id="">
+    </main>
+
+
+
+</body>
+<script src="new.js"></script>
+
+</html>
